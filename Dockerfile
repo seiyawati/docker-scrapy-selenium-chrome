@@ -1,7 +1,7 @@
 # includes setuptools and wheel
 FROM python:3.6-slim-stretch
 
-MAINTAINER James R <j@mesway.io>
+LABEL James R <j@mesway.io>
 # based on vimagick/scrapyd and robcherry/docker-chromedriver
 # purging wget removes required run time packages including python so leave it in
 # TODO use pipenv
