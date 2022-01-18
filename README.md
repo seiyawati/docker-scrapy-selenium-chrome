@@ -1,12 +1,4 @@
-# Scrapy Python Scraper with Selenium, Chrome Browser and Chrome Driver...
-... with SQLAlchemy and BeautifulSoup4
-
-Demo: https://github.com/jamesway/scrapy-demo
-
-## Requirements
-- docker
-
-
+# Docker Scrapy Selenium Chrome
 
 ## Usage
 
@@ -15,7 +7,7 @@ Demo: https://github.com/jamesway/scrapy-demo
 docker run --rm jamesway/scrapy
 ```
 
-### start a project
+### create project
 ```
 #the container WORKDIR is /code
 docker run --rm -v $(pwd):/code jamesway/scrapy startproject [scrapy_project_name]
